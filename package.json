@@ -1,4 +1,36 @@
 {
+  "name": "@clubcevan/cevan-utilities",
+  "version": "0.0.1",
+  "description": "A suite of utilities for development with TypeScript.",
+  "main": "index.js",
+  "type": "module",
+  "author": "Chase Neely <cevann00@gmail.com>",
+  "license": "MIT",
+  "packageManager": "npm@11.6.2",
+  "scripts": {
+    "build:Dev": "tsc",
+    "prebuild:Prod": "tsc -p prod.tsconfig.json --emitDeclarationOnly false",
+    "build:Prod": "tsc -p prod.tsconfig.json --removeComments false"
+  },
+  "exports": {
+    ".": {
+      "import": "./index.js"
+    }
+  },
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": ">=22.0.0"
+    },
+    "packageManager": {
+      "name": "npm",
+      "onFail": "error"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Club-Cevan/cevan-utilities"
+  },
   "dependencies": {
     "typescript": "^5.9.3"
   }
