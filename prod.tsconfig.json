@@ -1,0 +1,12 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+        "sourceMap": false,
+        "removeComments": true,
+        "emitDeclarationOnly": true
+    },
+    "exclude": [
+        "test/",
+        "bin/"
+    ]
+}
