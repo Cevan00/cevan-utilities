@@ -39,7 +39,7 @@ bower_components
 build/Release
 
 # Compiled JS Code
-
+bin/
 
 # Dependency directories
 node_modules/
