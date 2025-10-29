@@ -79,8 +79,9 @@ jobs:
         # Sets the scopes available to the github_token injected to the GH Actions runner
         permissions:
             attestations: read
-            contents: none
+            contents: read
             id-token: write
+            packages: write
 
         # The deploy step runs in the Azure environment context
         environment: NPM-OIDC
