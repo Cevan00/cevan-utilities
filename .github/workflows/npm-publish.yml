@@ -93,7 +93,7 @@ jobs:
               with:
                   node-version: 22
                   registry-url: https://registry.npmjs.org
-                  scope: Club-Cevan
+                  scope: '@club-cevan'
 
             # Update the NPM CLI to the latest available version
             - name: Update NPM CLI
