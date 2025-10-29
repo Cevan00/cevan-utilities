@@ -1,5 +1,5 @@
 {
-  "name": "@clubcevan/cevan-utilities",
+  "name": "@club-cevan/cevan-utilities",
   "version": "0.0.1",
   "description": "A suite of utilities for development with TypeScript.",
   "main": "index.js",
